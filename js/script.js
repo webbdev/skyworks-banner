@@ -195,7 +195,7 @@ window.onload = function(){
 		stage.addChild(txt3);
 
 		
-		createjs.Tween.get( button ).to( {alpha:1}, 1000 );
+		createjs.Tween.get( button ).to( {alpha:1}, 100 );
 		createjs.Tween.get( title3 ).to( {alpha:1}, 3000 );
 		createjs.Tween.get( blue3 ).to( {alpha:1}, 4000 );
 		createjs.Tween.get( text3 ).to( {alpha:1}, 5000 );
